@@ -1,6 +1,6 @@
 ﻿namespace WindowsService
 {
-    partial class Service1
+    partial class MyService
     {
         /// <summary> 
         /// Variable nécessaire au concepteur.
@@ -28,8 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            this.ServiceName = "Service1";
+            // 
+            // MyService
+            // 
+            this.ServiceName = "MyService";
+
         }
 
         #endregion
