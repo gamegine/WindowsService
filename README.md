@@ -9,7 +9,7 @@ source : [docs.microsoft.com](https://docs.microsoft.com/fr-fr/dotnet/framework/
 - [ ] Define the state of the service
 - [x] Add installation program for the service
 - [x] Install the service
-- [ ] Clean up resources
+- [x] Clean up resources
 ##  :floppy_disk: Programming language
 - C# .NETFramework v4.6.1
 ## :package: dependency
