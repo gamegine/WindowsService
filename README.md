@@ -7,7 +7,7 @@ source : [docs.microsoft.com](https://docs.microsoft.com/fr-fr/dotnet/framework/
 - [x] Create & Rename Service
 - [x] Add features to the service
 - [ ] Define the state of the service
-- [ ] Add installation program for the service
+- [x] Add installation program for the service
 - [ ] Install the service
 - [ ] Clean up resources
 ##  :floppy_disk: Programming language
@@ -16,5 +16,6 @@ source : [docs.microsoft.com](https://docs.microsoft.com/fr-fr/dotnet/framework/
 ## :hammer: builds
  - [1.0.0](https://github.com/gamegine/WindowsService/releases/tag/1.0.0)
  - [1.1.0](https://github.com/gamegine/WindowsService/releases/tag/1.1.0)
+ - [1.2.0](https://github.com/gamegine/WindowsService/releases/tag/1.2.0)
 # License
 WindowsService is licensed under the [ MIT License](https://github.com/gamegine/WindowsService/blob/master/LICENSE)
