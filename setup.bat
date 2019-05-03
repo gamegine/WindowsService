@@ -1,0 +1,1 @@
+installutil WindowsService\bin\Debug\WindowsService.exe
