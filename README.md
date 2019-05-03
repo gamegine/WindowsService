@@ -15,5 +15,6 @@ source : [docs.microsoft.com](https://docs.microsoft.com/fr-fr/dotnet/framework/
 ## :package: dependency
 ## :hammer: builds
  - [1.0.0](https://github.com/gamegine/WindowsService/releases/tag/1.0.0)
+ - [1.1.0](https://github.com/gamegine/WindowsService/releases/tag/1.1.0)
 # License
 WindowsService is licensed under the [ MIT License](https://github.com/gamegine/WindowsService/blob/master/LICENSE)

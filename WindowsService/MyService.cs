@@ -15,12 +15,8 @@ namespace WindowsService
             eventLog.Log = "MyLog";
         }
 
-        protected override void OnStart(string[] args)
-        {
-        }
+        protected override void OnStart(string[] args)=> eventLog.WriteEntry("Start");
 
-        protected override void OnStop()
-        {
-        }
+        protected override void OnStop() => eventLog.WriteEntry("Stop");
     }
 }
