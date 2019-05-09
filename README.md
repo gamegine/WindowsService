@@ -18,5 +18,6 @@ source : [docs.microsoft.com](https://docs.microsoft.com/fr-fr/dotnet/framework/
  - [1.1.0](https://github.com/gamegine/WindowsService/releases/tag/1.1.0)
  - [1.2.0](https://github.com/gamegine/WindowsService/releases/tag/1.2.0)
  - [1.2.1](https://github.com/gamegine/WindowsService/releases/tag/1.2.1)
+ - [1.2.2](https://github.com/gamegine/WindowsService/releases/tag/1.2.2)
 # License
 WindowsService is licensed under the [ MIT License](https://github.com/gamegine/WindowsService/blob/master/LICENSE)
