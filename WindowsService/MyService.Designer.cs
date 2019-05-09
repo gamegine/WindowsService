@@ -31,6 +31,11 @@
             this.eventLog = new System.Diagnostics.EventLog();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog)).BeginInit();
             // 
+            // eventLog
+            // 
+            this.eventLog.Log = "MyLog";
+            this.eventLog.Source = "MyService";
+            // 
             // MyService
             // 
             this.ServiceName = "MyService";

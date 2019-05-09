@@ -9,10 +9,7 @@ namespace WindowsService
         {
             InitializeComponent();
             eventLog = new EventLog();
-            if (!EventLog.SourceExists("MyService"))
-                EventLog.CreateEventSource("MyService", "MyLog");
             eventLog.Source = "MyService";
-            eventLog.Log = "MyLog";
         }
 
         protected override void OnStart(string[] args)=> eventLog.WriteEntry("Start");
