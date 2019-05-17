@@ -19,7 +19,7 @@ namespace WindowsService
         {
             // Set up a timer that triggers every minute.
             Timer timer = new Timer();
-            timer.Interval = 60000; // 60 seconds
+            timer.Interval = 2000; // 2 seconds
             timer.Elapsed += new ElapsedEventHandler(this.RunOnTimer);
             timer.Start();
         }
