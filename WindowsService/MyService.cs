@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using System.ServiceProcess;
 using System.Timers;
+using System.Configuration;
 
 namespace WindowsService
 {
@@ -25,6 +26,10 @@ namespace WindowsService
 
         protected override void OnStop() => eventLog.WriteEntry("Stop");
 
-        public void RunOnTimer(object sender, ElapsedEventArgs args) =>eventLog.WriteEntry("Run On Timer", EventLogEntryType.Information, eventId++);
+        public void RunOnTimer(object sender, ElapsedEventArgs args)
+        {
+            ConfigurationManager.RefreshSection("appSettings");
+            eventLog.WriteEntry("Run On Timer, config test val = " + ConfigurationManager.AppSettings["test"], EventLogEntryType.Information, eventId++);
+        }
     }
 }
